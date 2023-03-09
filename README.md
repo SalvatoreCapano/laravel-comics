@@ -1,8 +1,9 @@
-# Template Laravel9 + Bootstrap + SASS
+# Laravel Comics
 
-Istruzioni da eseguire al terminale per risolvere l'errore 500
-composer install 
-mv .env.example .env 
-php artisan cache:clear 
-composer dump-autoload 
-php artisan key:generate
+Create un nuovo progetto Laravel. 
+Concentratevi sul layout: create un file di layout in cui inserire la struttura comune di tutte le pagine del sito web (tag head, tag body, ...) eventualmente includendo header e footer tramite due partials.
+
+Create poi una rotta per visualizzare la lista di tutti i fumetti recuperati da un file inserito nella cartella config e abbellite il tutto sfruttando Sass.
+
+Bonus:
+Create più pagine istituzionali che condividono lo stesso layout
