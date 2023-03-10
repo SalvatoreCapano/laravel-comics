@@ -21,7 +21,7 @@
         @include('partials.header')
 
         <main>
-            @yield('pippo')
+            @yield('content')
         </main>
 
         @include('partials.footer')

@@ -13,9 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     $title = 'home';
-    $info = compact('title');
+    $comicsData = config('comics');
+    $info = compact('title', 'comicsData');
     return view('pages.home', $info);
 });
 
