@@ -20,23 +20,23 @@
     $socialLinks = [
         [
             'name' => 'Facebook',
-            'imgUrl' => 'resources/images/footer-facebook.png',
+            'imgUrl' => 'footer-facebook.png',
         ],
         [
             'name' => 'Twitter',
-            'imgUrl' => 'resources/images/footer-twitter.png',
+            'imgUrl' => 'footer-twitter.png',
         ],
         [
             'name' => 'Youtube',
-            'imgUrl' => 'resources/images/footer-youtube.png',
+            'imgUrl' => 'footer-youtube.png',
         ],
         [
             'name' => 'Pinterest',
-            'imgUrl' => 'resources/images/footer-pinterest.png',
+            'imgUrl' => 'footer-pinterest.png',
         ],
         [
             'name' => 'Periscope',
-            'imgUrl' => 'resources/images/footer-periscope.png',
+            'imgUrl' => 'footer-periscope.png',
         ],
     ];
 @endphp
@@ -81,8 +81,7 @@
                             @foreach ($socialLinks as $el)
                                 <li>
                                     <a href="#">
-                                        {{-- Come prendere url da array? --}}
-                                        <img src="{{ Vite::asset( 'resources/images/footer-periscope.png' ) }}" alt="">
+                                        <img src="{{ Vite::asset( 'resources/images/' ).$el['imgUrl'] }}" alt="">
                                     </a>
                                 </li>
                             @endforeach
