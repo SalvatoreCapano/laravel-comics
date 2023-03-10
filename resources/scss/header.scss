@@ -63,3 +63,13 @@ header {
         }
     }
 }
+
+.searchbar {
+    border-bottom: 2px solid #0583f9;
+
+    input {
+        border: none;
+        background: none;
+        text-align: end;
+    }
+}

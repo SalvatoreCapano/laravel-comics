@@ -76,5 +76,10 @@
             </ul>
         </nav>
 
+        <div class="searchbar">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
     </div> <!-- /container-->
 </header>
